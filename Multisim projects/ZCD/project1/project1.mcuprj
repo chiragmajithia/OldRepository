@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ASCII"?>
+<MCUProject Schema="63" Class="CMCUProject" Path="" PathAbs="" ProjectType="1">
+<ProjectFolders/>
+<ProjectFiles/>
+<BuildSettings>
+<MCUProjectBuildSettings Class="CMCUProjectBuildSettings" ToolGroupType="-1" IntermediatePath="&amp;ASC.\" IntermediatePathAbs="" OutputPath="&amp;ASC.\" OutputPathAbs="" TargetFileType="6" SimPath="&amp;ASC..\..\..\Arduino\KeilProj\" SimPathAbs="&amp;ASCD:\Arduino\KeilProj\" SimFile="&amp;ASCZCD test.hex" CodeLoadType="0"/>
+</BuildSettings>
+</MCUProject>

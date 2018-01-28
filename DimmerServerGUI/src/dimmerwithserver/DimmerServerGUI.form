@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="formMouseClicked"/>
+    <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="formKeyTyped"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel3" max="32767" attributes="0"/>
+                  <Component id="jPanel2" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Component id="jServerPanel" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel3" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Component id="jServerPanel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel2" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jServerPanel">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace pref="30" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jIPLabel" min="-2" pref="165" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jPortNo" min="-2" pref="103" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jCreateServer" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jScrollPane1" min="-2" pref="405" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
+                  <Component id="jServerIP" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="97" max="-2" attributes="0"/>
+                  <Component id="jPortNoLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jServerIP" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jPortNoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jIPLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jCreateServer" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jPortNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="61" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="jCreateServer">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Create Server"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jCreateServerMouseClicked"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jServerClientComm">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="lineWrap" type="boolean" value="true"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="wrapStyleWord" type="boolean" value="true"/>
+                <Property name="enabled" type="boolean" value="false"/>
+                <Property name="opaque" type="boolean" value="false"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="DimmerWithServer_jServerClientComm"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jIPLabel">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="XPS-PC/192.168.0.104:4004"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jServerIP">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sever IP :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jPortNoLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Port No. :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jPortNo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="4004"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jPortNoFocusGained"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jVoltageLevel" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jOnOff" min="-2" pref="64" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jIncreaseBrightness" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jDecreaseBrightness" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="jReceivedChars" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jVoltageLevel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jDecreaseBrightness" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                      <Component id="jIncreaseBrightness" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                      <Component id="jOnOff" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jReceivedChars" min="-2" pref="24" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="jIncreaseBrightness">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Increase Brightness"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="formKeyTyped"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jOnOff">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Off"/>
+          </Properties>
+          <Events>
+            <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jOnOffItemStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="jDecreaseBrightness">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Decrease Brightness"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="formKeyTyped"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jReceivedChars">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+            <Property name="opaque" type="boolean" value="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JProgressBar" name="jVoltageLevel">
+          <Properties>
+            <Property name="maximum" type="int" value="4800"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel3">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jProgressBar" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabelParity" min="-2" pref="73" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jLabelBaudRate" pref="73" max="32767" attributes="0"/>
+                                  <Component id="jLabelCommPort" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jCommPorts" alignment="0" min="-2" pref="74" max="-2" attributes="0"/>
+                              <Component id="jLableNone" min="-2" max="-2" attributes="0"/>
+                              <Component id="jBaudRate" min="-2" pref="74" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jConnect" min="-2" max="-2" attributes="0"/>
+                              <Component id="jPopulate" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabelCommPort" min="-2" max="-2" attributes="0"/>
+                              <Component id="jCommPorts" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jBaudRate" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelBaudRate" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLableNone" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelParity" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jPopulate" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="46" pref="46" max="-2" attributes="0"/>
+                          <Component id="jConnect" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jProgressBar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JProgressBar" name="jProgressBar">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="Dimmer_jProgressBar"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelParity">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Parity :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jConnect">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Connect"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jConnectMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelBaudRate">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Baud Rate : "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jCommPorts">
+          <Events>
+            <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="jCommPortsPropertyChange"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="4"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLableNone">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="None"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jPopulate">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Populate"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPopulateMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jBaudRate">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="4">
+                <StringItem index="0" value="2400"/>
+                <StringItem index="1" value="4800"/>
+                <StringItem index="2" value="9600"/>
+                <StringItem index="3" value="14400"/>
+              </StringArray>
+            </Property>
+            <Property name="selectedIndex" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="2" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelCommPort">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="CommPort : "/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
